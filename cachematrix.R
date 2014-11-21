@@ -40,7 +40,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Compute the inverse matrix of a matrix object
+## The inverse is stored on the cache of the matrix 
+## object
 
 cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
